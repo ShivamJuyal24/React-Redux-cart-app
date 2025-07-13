@@ -17,12 +17,16 @@ A basic shopping cart application built with **React** and **Redux**, allowing u
 ## 📸 Screenshots
 
 ### 🏠 Home Page
-![Home Page](./screenshots/home.png)
+![Home Page](public/home.png)
 
 ### 🛒 Cart Page
-![Cart Page](./screenshots/cart.png)
+![Cart Page](public/cart.png)
 
-> 📂 Place your images in a `screenshots/` folder in the root or `public/` directory. Make sure the paths are correct after deployment.
+> 💡 If images don't show on GitHub, try removing `public/` from the path:
+>
+> ```markdown
+> ![Home Page](home.png)
+> ```
 
 ## 📦 Installation & Running
 
@@ -48,7 +52,8 @@ Copy
 Edit
 redux-shopping-cart/
 ├── public/
-│   └── screenshots/
+│   ├── home.png
+│   └── cart.png
 ├── src/
 │   ├── components/        # Navbar, Products
 │   ├── pages/             # Home, Cart
@@ -64,16 +69,3 @@ Go to the Cart page to view or remove items
 
 📃 License
 This project is open source and available under the MIT License.
-
-🔗 Created by Shivam Juyal
-
-vbnet
-Copy
-Edit
-
----
-
-✅ **Next step:**  
-Place your screenshots (e.g., `home.png`, `cart.png`) into a folder named `screenshots` inside your project root or `public/`, and Git will include them when you push.
-
-Let me know if you'd like help creating the images or automatically capturing the app UI.
